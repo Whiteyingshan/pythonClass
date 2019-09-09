@@ -6,7 +6,7 @@ def readPoint():
     point = point.split(',')
     for i in range(len(point)):
         if not point[i]:
-            point.append(i)
+            point[i] = 0
     point = tuple(map(int, point))
     return point
 
