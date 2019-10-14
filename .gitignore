@@ -105,4 +105,4 @@ venv.bak/
 
 # Whiteying configuration
 test.py
-.idea
+!/.idea/
